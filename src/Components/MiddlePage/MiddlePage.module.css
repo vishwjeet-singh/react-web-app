@@ -1,0 +1,89 @@
+.pagewrapper{
+    display: inline-flex;
+    width: 60%;
+    padding: 5%;
+    padding-top: 0%;
+    padding-right: 0%;
+    flex-flow: column;
+}
+
+.Upperbox{
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 75%;
+    padding: 8px;
+    margin: 5px;
+}
+.Imagebox{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.Imagebox span{
+    position: absolute;
+    left: 8%;
+    font-size: 12px;
+    color: bisque;
+    font-family: cursive;
+    bottom: 5%;
+}
+.Imagebox img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+.Contentbox{
+    display: inline-block;
+    width: 50%;
+}
+.Contentbox h2{
+    margin: 0;
+    padding: 0;
+}
+.Contentbox span{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(237 244 255);
+}
+.Contentbox span form{
+    padding: 7px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'monospace';
+    margin: 0;
+}
+.LowerBox{
+    margin-left: 5%;
+    width: 75%;
+}
+.LowerBox span{
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(237 244 255);
+}
+.LowerBox span p{
+    padding: 15px;
+    color: rgb(145, 94, 211);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    transition: 0.25s;
+}
+.LowerBox span:active,
+.LowerBox span.active,
+.LowerBox span:hover{
+    background-color: ghostwhite;
+}

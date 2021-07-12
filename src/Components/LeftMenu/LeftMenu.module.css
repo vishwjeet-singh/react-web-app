@@ -1,0 +1,46 @@
+.LeftMenu{
+    padding: 16px;
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    background-color: rgb(0, 39, 112);
+}
+.linkportal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkportal a{
+    text-decoration: none;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 5px;
+    color:white;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    background-color: rgb(67 67 151);
+}
+.linkportal a:active,
+.linkportal a.active,
+.linkportal a:hover{
+    background-color: transparent;
+    letter-spacing: 3px;
+}
+
+
+.imagebox{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+    
+}
+.imagebox img{
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
